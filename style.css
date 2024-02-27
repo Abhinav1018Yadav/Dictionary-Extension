@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+body{
+    background-color:#35374B;
+    color: white;
+    /* width: fit-content; */
+}
+h2{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+}
+.search{
+    display: flex;
+    gap: 2px;
+    /* justify-content: center;
+    align-items: center; */
+}
+#wordHead{
+    font-size: large;
+    font-weight: bolder;
+}
+
+#searchBtn{
+    cursor: pointer;
+}
+
+hr{
+    visibility: hidden;
+}
